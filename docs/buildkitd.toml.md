@@ -36,6 +36,7 @@ insecure-entitlements = [ "network.host", "security.insecure" ]
   debugAddress = "0.0.0.0:6060"
   uid = 0
   gid = 0
+
   [grpc.tls]
     cert = "/etc/buildkit/tls.crt"
     key = "/etc/buildkit/tls.key"
